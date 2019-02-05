@@ -427,7 +427,7 @@
                 
               
 
-              <time title="Created: 2019-02-05 14:41:12 / Modified: 14:44:57" itemprop="dateCreated datePublished" datetime="2019-02-05T14:41:12+08:00">2019-02-05</time>
+              <time title="Created: 2019-02-05 14:41:12 / Modified: 14:49:39" itemprop="dateCreated datePublished" datetime="2019-02-05T14:41:12+08:00">2019-02-05</time>
             
 
             
@@ -490,9 +490,12 @@
 
       
         
-          <p>设置<code>主题配置文件</code>，修改这一部分：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Automatically Excerpt. Not recommend.</span><br><span class="line"># Use &lt;!-- more --&gt; in the post to control excerpt accurately.</span><br><span class="line">auto_excerpt:</span><br><span class="line">  enable: false</span><br><span class="line">  length: 50</span><br></pre></td></tr></table></figure>
-<p>这个length就是默认字数了，当然这是默认做法，还可以用
+          
+            <p>
+              设置主题配置文件，修改这一部分：
+# Automatically Excerpt. Not reco
+              ...
+            </p>
           <!--noindex-->
           
             <div class="post-button text-center">
@@ -504,7 +507,7 @@
           <!--/noindex-->
         
       
-    </p></div>
+    </div>
 
     
 
@@ -665,18 +668,21 @@
       
         
           
-            <p>  最新版的next主题整合了这个功能</p>
-<p>  安装插件：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure>
-<p>  编辑 <code>站点配置文件</code>，新增以下内容到任意位置：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#Search</span><br><span class="line">search:  </span><br><span class="line">  </span><br><span class="line">  path: search.xml  </span><br><span class="line">  </span><br><span class="line">  field: post</span><br></pre></td></tr></table></figure>
-<p>编辑 <code>主题配置文件</code>，启用本地搜索功能：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># Local search</span><br><span class="line">  local_search:  </span><br><span class="line">    enable: true</span><br></pre></td></tr></table></figure>
-<p>然后 重新生成 查看:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
-<p>这样,搜索功能就添加上了.<br><a href="https://github.com/wzpan/hexo-generator-search" title="target=_blank" target="_blank" rel="noopener">插件官方说明</a></p>
-
+            <p>
+                最新版的next主题整合了这个功能
+  安装插件：
+npm install hexo-gener
+              ...
+            </p>
+          <!--noindex-->
           
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/02/05/Hexo添加本地搜索/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
@@ -840,22 +846,20 @@
       
         
           
-            <p>  修改根目录配置文件（不是主题配置文件）_config.yml</p>
-<p>  把post_asset_folder: 后边的值改为true ，这样在hexo n “name”是就会同时生成一个同名文件夹来存放你会引用的图片</p>
-<p>  接着用markdown 语法引用就行了</p>
-<p>  格式：</p>
-<blockquote>
-<p>![替换的文字](image.jpg)</p>
-</blockquote>
-<p>  图片只能在文章中显示，但无法在首页中正常显示。</p>
-<p>  如果希望图片在文章和首页中同时显示，可以使用标签插件语法。</p>
-<p>  _posts/post_name/image.jpg ：</p>
-<blockquote>
-<p> {\% asset_img image.jpg This is an image \%}</p>
-</blockquote>
-<p>  （这里没有\这是转义符）</p>
-
+            <p>
+                修改根目录配置文件（不是主题配置文件）_config.yml
+  把post_asset_fol
+              ...
+            </p>
+          <!--noindex-->
           
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/02/05/Hexo插入图片/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
