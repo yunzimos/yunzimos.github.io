@@ -493,7 +493,8 @@
           
             <p>
               设置主题配置文件，修改这一部分：
-# Automatically Excerpt. Not reco
+# Automatically Excerpt. Not recommend.# Use &lt;!-- more --&gt; in the post to control excerpt accurately.auto_excerpt:  enable: false  length: 50
+这个length就是默认字数了，当然这是默认做法，还可以用&lt;!-
               ...
             </p>
           <!--noindex-->
@@ -671,7 +672,11 @@
             <p>
                 最新版的next主题整合了这个功能
   安装插件：
-npm install hexo-gener
+npm install hexo-generator-search --save
+  编辑 站点配置文件，新增以下内容到任意位置：
+#Searchsearch:      path: search.xml      field: post
+编辑 主题配置文件，启用本地搜索功能：
+# Local search  local_search:   
               ...
             </p>
           <!--noindex-->
@@ -848,7 +853,14 @@ npm install hexo-gener
           
             <p>
                 修改根目录配置文件（不是主题配置文件）_config.yml
-  把post_asset_fol
+  把post_asset_folder: 后边的值改为true ，这样在hexo n “name”是就会同时生成一个同名文件夹来存放你会引用的图片
+  接着用markdown 语法引用就行了
+  格式：
+
+![替换的文字](image.jpg)
+
+  图片只能在文章中显示，但无法在首页中正常显示。
+  如果希望图片在文章和首页中同
               ...
             </p>
           <!--noindex-->
