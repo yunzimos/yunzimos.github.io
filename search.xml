@@ -8,7 +8,7 @@
       <link href="/2019/02/05/Hexo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/"/>
       <url>/2019/02/05/Hexo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</url>
       
-        <content type="html"><![CDATA[<p>  修改根目录配置文件（不是主题配置文件）_config.yml</p><p>  把post_asset_folder: 后边的值改为true ，这样在hexo n “name”是就会同时生成一个同名文件夹来存放你会引用的图片</p><p>  接着用markdown 语法引用就行了</p><p>  格式：</p><blockquote><p>/<img src="image.jpg" alt="替换的文字"></p></blockquote><p>  图片只能在文章中显示，但无法在首页中正常显示。</p><p>  如果希望图片在文章和首页中同时显示，可以使用标签插件语法。</p><p>  _posts/post_name/image.jpg ：</p><blockquote><p> /</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<p>  修改根目录配置文件（不是主题配置文件）_config.yml</p><p>  把post_asset_folder: 后边的值改为true ，这样在hexo n “name”是就会同时生成一个同名文件夹来存放你会引用的图片</p><p>  接着用markdown 语法引用就行了</p><p>  格式：</p><blockquote><p>!<a href="image.jpg">替换的文字</a></p></blockquote><p>  图片只能在文章中显示，但无法在首页中正常显示。</p><p>  如果希望图片在文章和首页中同时显示，可以使用标签插件语法。</p><p>  _posts/post_name/image.jpg ：</p><blockquote><p> \</p></blockquote>]]></content>
       
       
       
