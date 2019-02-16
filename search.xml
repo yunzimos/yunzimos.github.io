@@ -4,6 +4,38 @@
   
     
     <entry>
+      <title>Hello World</title>
+      <link href="/2019/02/16/hello-world/"/>
+      <url>/2019/02/16/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><a id="more"></a><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux上的下载软件</title>
+      <link href="/2019/02/16/Linux%E4%B8%8A%E7%9A%84%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6/"/>
+      <url>/2019/02/16/Linux%E4%B8%8A%E7%9A%84%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6/</url>
+      
+        <content type="html"><![CDATA[<h3 id="linux上的下载软件之Motrix"><a href="#linux上的下载软件之Motrix" class="headerlink" title="linux上的下载软件之Motrix"></a>linux上的下载软件之Motrix</h3><ol><li>开源软件</li><li>支持linxu，mac，windows</li><li>支持下载 HTTP、FTP、BT、磁力链、百度网盘等资源</li><li><p>有浏览器插件支持</p></li><li><p><a href="https://motrix.app/zh-CN/" title="target=_blank" target="_blank" rel="noopener">下载地址</a></p></li><li><a href="https://www.yuque.com/moapp/help/installation" title="target=_blank" target="_blank" rel="noopener">帮助文档</a></li></ol><p>PS：会涉及到修改host的问题：<br>首先打开HOST文件</p><p><code>sudo vim /etc/hosts</code><br>添加你需要的域名</p><p><code>216.239.37.99 www.google.com</code><br>注意不要加上http://这样的协议前缀和/后缀等；</p><p>编辑后，你需要重新启动一下你的网络。</p><p><code>sudo /etc/init.d/networking restart</code></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>阅读全文截止默认字数修改</title>
       <link href="/2019/02/05/%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E6%88%AA%E6%AD%A2%E9%BB%98%E8%AE%A4%E5%AD%97%E6%95%B0%E4%BF%AE%E6%94%B9/"/>
       <url>/2019/02/05/%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E6%88%AA%E6%AD%A2%E9%BB%98%E8%AE%A4%E5%AD%97%E6%95%B0%E4%BF%AE%E6%94%B9/</url>
@@ -53,19 +85,6 @@
     </entry>
     
     
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2019/01/30/hello-world/"/>
-      <url>/2019/01/30/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><a id="more"></a><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
     
     
   
