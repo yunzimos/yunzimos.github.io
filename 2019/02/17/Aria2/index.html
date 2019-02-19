@@ -104,7 +104,7 @@
 <meta property="og:site_name" content="红樱落尽君不见">
 <meta property="og:description" content="Linux上的下载软件Aria2特征 多连接下载。aria2可以从多个源/协议下载文件，并尝试利用您的最大下载带宽。真正加快您的下载体验。 轻量级。aria2不需要太多内存和CPU时间。当磁盘缓存关闭时，物理内存使用量通常为4MiB（正常HTTP / FTP下载）到9MiB（BitTorrent下载）。下载速度为2.8MiB /秒的BitTorrent的CPU使用率约为6％。 功能齐全的BitTo">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-02-19T15:16:03.272Z">
+<meta property="og:updated_time" content="2019-02-19T15:24:49.798Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Aria2">
 <meta name="twitter:description" content="Linux上的下载软件Aria2特征 多连接下载。aria2可以从多个源/协议下载文件，并尝试利用您的最大下载带宽。真正加快您的下载体验。 轻量级。aria2不需要太多内存和CPU时间。当磁盘缓存关闭时，物理内存使用量通常为4MiB（正常HTTP / FTP下载）到9MiB（BitTorrent下载）。下载速度为2.8MiB /秒的BitTorrent的CPU使用率约为6％。 功能齐全的BitTo">
@@ -446,7 +446,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-02-19 23:16:03" itemprop="dateModified" datetime="2019-02-19T23:16:03+08:00">2019-02-19</time>
+                <time title="Modified: 2019-02-19 23:24:49" itemprop="dateModified" datetime="2019-02-19T23:24:49+08:00">2019-02-19</time>
               
             
           </span>
@@ -508,8 +508,10 @@
 <li><strong>轻量级</strong>。aria2不需要太多内存和CPU时间。当磁盘缓存关闭时，物理内存使用量通常为4MiB（正常HTTP / FTP下载）到9MiB（BitTorrent下载）。下载速度为2.8MiB /秒的BitTorrent的CPU使用率约为6％。</li>
 <li><strong>功能齐全的BitTorrent客户端</strong>。您可以在BitTorrent客户端中使用所有功能：DHT，PEX，加密，磁体URI，Web种子，选择性下载，本地对等发现和UDP跟踪器。</li>
 <li><strong>Metalink已启用</strong>。aria2支持<a href="http://tools.ietf.org/html/rfc5854" title="title=;target=_self" target="_blank" rel="noopener">Metalink下载格式</a> （又名Metalink v4），Metalink版本3和 <a href="http://tools.ietf.org/html/rfc6249" title="title=;target=_self" target="_blank" rel="noopener">Metalink / HTTP</a>。Metalink提供文件验证，HTTP / FTP / SFTP / BitTorrent集成以及语言，位置，操作系统等的各种配置。</li>
-<li><strong>遥控（Remote Control）</strong>。aria2支持RPC接口来控制aria2进程。支持的接口是JSON-RPC（通过HTTP和WebSocket）和XML-RPC。<h4 id="缺点："><a href="#缺点：" class="headerlink" title="缺点："></a>缺点：</h4>操作需要命令行，入门难<br>最近出了很多百度云下载不限速教程（黑号也不限速）都是借用的Aria2下载，也有一部分软件（像pandownload）都是用的Aria2，所以我才对他产生了兴趣。<br><a href="https://aria2.github.io/" title="target=_blank" target="_blank" rel="noopener">官网</a><h5 id="基本命令："><a href="#基本命令：" class="headerlink" title="基本命令："></a>基本命令：</h5>从WEB下载：</li>
+<li><strong>遥控（Remote Control）</strong>。aria2支持RPC接口来控制aria2进程。支持的接口是JSON-RPC（通过HTTP和WebSocket）和XML-RPC。</li>
 </ul>
+<h4 id="缺点："><a href="#缺点：" class="headerlink" title="缺点："></a>缺点：</h4><p>  操作需要命令行，入门难<br>最近出了很多百度云下载不限速教程（黑号也不限速）都是借用的Aria2下载，也有一部分软件（像pandownload）都是用的Aria2，所以我才对他产生了兴趣。<br><a href="https://aria2.github.io/" title="target=_blank" target="_blank" rel="noopener">官网</a></p>
+<h4 id="基本命令："><a href="#基本命令：" class="headerlink" title="基本命令："></a>基本命令：</h4><p>从WEB下载：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ aria2c http://example.org/mylinux.iso</span><br></pre></td></tr></table></figure>
 <p>从2个来源下载：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ aria2c http://a/f.iso ftp://b/f.iso</span><br></pre></td></tr></table></figure>
@@ -537,7 +539,9 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">aria2c --enable-rpc --rpc-listen-all=true --rpc-allow-origin-all -c -D</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>按理说直接用命令也是按照配置来的，但是好像没用，但是图形界面倒是可以比如<a href="http://aria2c.com/" title="target=_blank" target="_blank" rel="noopener">aria2c.com</a>，ip本地，端口默认6800</p>
-<h4 id="傻瓜式安装和使用Aria"><a href="#傻瓜式安装和使用Aria" class="headerlink" title="傻瓜式安装和使用Aria"></a>傻瓜式安装和使用Aria</h4></li>
+</li>
+</ul>
+<h4 id="傻瓜式安装和使用Aria"><a href="#傻瓜式安装和使用Aria" class="headerlink" title="傻瓜式安装和使用Aria"></a>傻瓜式安装和使用Aria</h4><ul>
 <li><a href="https://www.appinn.com/aria2-in-windows-setup/" title="target=_blank" target="_blank" rel="noopener">「下载神器」aria2 懒人安装教程 [Windows]</a></li>
 <li><a href="https://zhuanlan.zhihu.com/p/30666881" title="target=_blank" target="_blank" rel="noopener">Aria2基础上手指南-知乎</a></li>
 </ul>
@@ -724,7 +728,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Linux上的下载软件Aria2"><span class="nav-number">1.</span> <span class="nav-text">Linux上的下载软件Aria2</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#特征"><span class="nav-number">1.1.</span> <span class="nav-text">特征</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#缺点："><span class="nav-number">1.2.</span> <span class="nav-text">缺点：</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#基本命令："><span class="nav-number">1.2.1.</span> <span class="nav-text">基本命令：</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#通过配置文件来启动"><span class="nav-number">1.3.</span> <span class="nav-text">通过配置文件来启动</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#傻瓜式安装和使用Aria"><span class="nav-number">1.4.</span> <span class="nav-text">傻瓜式安装和使用Aria</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#让-Aria2-开机自启（windows）"><span class="nav-number">1.5.</span> <span class="nav-text">让 Aria2 开机自启（windows）</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Linux上的下载软件Aria2"><span class="nav-number">1.</span> <span class="nav-text">Linux上的下载软件Aria2</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#特征"><span class="nav-number">1.1.</span> <span class="nav-text">特征</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#缺点："><span class="nav-number">1.2.</span> <span class="nav-text">缺点：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#基本命令："><span class="nav-number">1.3.</span> <span class="nav-text">基本命令：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#通过配置文件来启动"><span class="nav-number">1.4.</span> <span class="nav-text">通过配置文件来启动</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#傻瓜式安装和使用Aria"><span class="nav-number">1.5.</span> <span class="nav-text">傻瓜式安装和使用Aria</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#让-Aria2-开机自启（windows）"><span class="nav-number">1.6.</span> <span class="nav-text">让 Aria2 开机自启（windows）</span></a></li></ol></li></ol></div>
             
 
           </div>
