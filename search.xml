@@ -8,9 +8,15 @@
       <link href="/2019/02/20/usb-killer/"/>
       <url>/2019/02/20/usb-killer/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>  看了成龙演的《机器之血》片段，成龙为了毁掉电脑插上了一个U盘，然后电脑就爆炸了，注意不是死机，是 爆！ 炸！ 了！然后我就想起了这么个玩意。<br>  “当把它插到USB口上时，一个反向的DC/DC转换器运行并将电容器充至-110伏电压，此时直流斩波器（DC/DC）被关闭，场控晶体管同时打开。”<br>  “它在USB接口信号线-110伏电压的时候产生作用。当电容的电压降到-7伏时，晶体管关闭，DC/DC开启。这个循环一直继续，直到发生崩溃。熟悉电路知识的人，应该已经猜到为什么要使用负电压了。”<br><img src="1.jpg" alt="结构示意图"><br>  里头并不是储存颗粒，而是一个电容器，以及相应的逆变电路。当你把它插在USP口之后，主板就开始给这个电容器充电；当它被充满之后，反过来就会向主板供电——电压据说高达240V，足以在几秒钟之内烧毁主板。<br> <a href="https://usbkill.com/" title="target=_blank" target="_blank" rel="noopener">usb killer官网</a><br>  据说不会损毁数据，只是会把主板烧了而已，而且似乎对苹果产品不起作用。</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> toys </tag>
+            
+        </tags>
       
     </entry>
     
