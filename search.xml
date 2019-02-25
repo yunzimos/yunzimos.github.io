@@ -4,6 +4,51 @@
   
     
     <entry>
+      <title>记一次智能手环选购</title>
+      <link href="/2019/02/25/%E8%AE%B0%E4%B8%80%E6%AC%A1%E6%99%BA%E8%83%BD%E6%89%8B%E7%8E%AF%E9%80%89%E8%B4%AD/"/>
+      <url>/2019/02/25/%E8%AE%B0%E4%B8%80%E6%AC%A1%E6%99%BA%E8%83%BD%E6%89%8B%E7%8E%AF%E9%80%89%E8%B4%AD/</url>
+      
+        <content type="html"><![CDATA[<p>老是错过各种信息，就想买个手环。大部分手环都支持信息提醒功能嘛。</p><h3 id="简单罗列几个常见的手环（先后并无好坏关系）"><a href="#简单罗列几个常见的手环（先后并无好坏关系）" class="headerlink" title="简单罗列几个常见的手环（先后并无好坏关系）"></a>简单罗列几个常见的手环（先后并无好坏关系）</h3><h4 id="1-乐心-mambo2"><a href="#1-乐心-mambo2" class="headerlink" title="1. 乐心 mambo2"></a>1. 乐心 mambo2</h4><ul><li>市场价：119</li><li>黑白屏幕</li><li>0.87寸屏幕<h4 id="2-乐心5"><a href="#2-乐心5" class="headerlink" title="2. 乐心5"></a>2. 乐心5</h4></li></ul><ul><li>市场价 ：149</li><li>支持支付宝绑定</li><li>彩屏</li><li>0.96寸屏幕</li><li>80mAh电池</li><li>usb直充</li></ul><h4 id="3-埃微i5p"><a href="#3-埃微i5p" class="headerlink" title="3. 埃微i5p"></a>3. 埃微i5p</h4><ul><li>市场价：99/55（淘宝有买，便宜出）</li></ul><h4 id="4-埃微i6HR"><a href="#4-埃微i6HR" class="headerlink" title="4. 埃微i6HR"></a>4. 埃微i6HR</h4><ul><li>市场价：129</li><li>彩屏</li><li>0.96寸屏幕</li></ul><h4 id="5-唯乐now2"><a href="#5-唯乐now2" class="headerlink" title="5. 唯乐now2"></a>5. 唯乐now2</h4><ul><li>市场价：179</li><li>黑白屏</li><li>0.91寸屏幕</li><li>可设10个闹钟</li><li>日程提醒</li><li>110mAh电池</li><li>非直冲</li></ul><h4 id="6-hey"><a href="#6-hey" class="headerlink" title="6. hey+"></a>6. hey+</h4><ul><li>市场价：229</li><li>彩屏</li><li>支持支付宝</li><li>NFC和门禁</li><li>120mAh电池</li><li>0.95屏幕</li></ul><h4 id="7-小米手环"><a href="#7-小米手环" class="headerlink" title="7. 小米手环"></a>7. 小米手环</h4><ul><li>小米2：109 70mAh 0.42 黑白</li><li>小米3：169 110mAh 0.78 黑白</li><li>小米3NFC版：199</li></ul><h4 id="优劣势："><a href="#优劣势：" class="headerlink" title="优劣势："></a>优劣势：</h4><ul><li>小米有强大的团队支持（没有适配小米家具，屏幕也是黑白还小）</li><li>hey+和小米合作（支持小米智能家居等等），性价比也还不错，对于我来说不是很刚需（NFC什么的）。</li><li>乐心倾向于心率和运动（厂家好像是干健康的），信息推送不是很好。</li><li>埃微没什么特别出众的地方，小厂？</li><li>最后买了唯乐now2，主要是因为日程提醒（心率测试和步数检测不是很准），京东分12期，还完就扔？</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 购物 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>kali linux</title>
+      <link href="/2019/02/24/kali-linux/"/>
+      <url>/2019/02/24/kali-linux/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2019/02/23/hello-world/"/>
+      <url>/2019/02/23/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><a id="more"></a><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>USB KILLER</title>
       <link href="/2019/02/20/usb-killer/"/>
       <url>/2019/02/20/usb-killer/</url>
@@ -17,19 +62,6 @@
             <tag> toys </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2019/02/20/hello-world/"/>
-      <url>/2019/02/20/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><a id="more"></a><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-      
-      
       
     </entry>
     
