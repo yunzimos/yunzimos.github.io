@@ -642,7 +642,7 @@ usb直充
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-03-07 23:35:35" itemprop="dateModified" datetime="2019-03-07T23:35:35+08:00">2019-03-07</time>
+                <time title="Modified: 2019-03-07 23:41:49" itemprop="dateModified" datetime="2019-03-07T23:41:49+08:00">2019-03-07</time>
               
             
           </span>
@@ -706,10 +706,11 @@ usb直充
 搜索附近无线网络，获取想要连接网络的SSIDsudo iwlist scan
 配置无线网络文件sudo vim /etc/network/interfaces
 
-配置文件内容为：auto wlan0
-iface wlan0 inet dhcp
-pre-up ip link set wlan0 up
-pre-up iwconfig wlan0 essid ss
+配置文件内容为：
+//在此输入代码
+
+启用无线网络sudo ifup wlan0PS:ifup命令
+安装驱动以及其他软件包Debian 或 Ubuntu 在命令行下配置无线网络连接 WiFi 的方法
               ...
             </p>
           <!--noindex-->
