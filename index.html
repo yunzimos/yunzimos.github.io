@@ -642,7 +642,7 @@ usb直充
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-03-07 23:42:58" itemprop="dateModified" datetime="2019-03-07T23:42:58+08:00">2019-03-07</time>
+                <time title="Modified: 2019-03-07 23:45:23" itemprop="dateModified" datetime="2019-03-07T23:45:23+08:00">2019-03-07</time>
               
             
           </span>
@@ -711,16 +711,7 @@ sudo iwlist scan
 
 sudo vim /etc/network/interfaces
 配置文件内容为：
-//在此输入代码
-
-启用无线网络
-
-sudo ifup wlan0
-PS:ifup命令
-
-安装驱动以及其他软件包
-
-Debian 或 Ubuntu 在命令行下配置无线网络连
+auto wlan0iface wlan0 inet dhcppre-up ip link set wlan0 uppre-up iwconfig wlan0 essid 
               ...
             </p>
           <!--noindex-->

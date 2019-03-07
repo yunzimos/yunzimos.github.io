@@ -96,17 +96,17 @@
 
 
 
-  <meta name="description" content="命令行配置无线网络通用方法（一劳永逸） 搜索附近无线网络，获取想要连接网络的SSID  sudo iwlist scan  配置无线网络文件  sudo vim /etc/network/interfaces 配置文件内容为： 1//在此输入代码  启用无线网络  sudo ifup wlan0 PS:ifup命令  安装驱动以及其他软件包  Debian 或 Ubuntu 在命令行下配置无线网络">
+  <meta name="description" content="命令行配置无线网络通用方法（一劳永逸） 搜索附近无线网络，获取想要连接网络的SSID  sudo iwlist scan  配置无线网络文件  sudo vim /etc/network/interfaces 配置文件内容为： 123456auto wlan0iface wlan0 inet dhcppre-up ip link set wlan0 uppre-up iwconfig wlan0">
 <meta property="og:type" content="article">
 <meta property="og:title" content="kali linux">
 <meta property="og:url" content="http://yoursite.com/2019/02/24/kali-linux/index.html">
 <meta property="og:site_name" content="红樱落尽君不见">
-<meta property="og:description" content="命令行配置无线网络通用方法（一劳永逸） 搜索附近无线网络，获取想要连接网络的SSID  sudo iwlist scan  配置无线网络文件  sudo vim /etc/network/interfaces 配置文件内容为： 1//在此输入代码  启用无线网络  sudo ifup wlan0 PS:ifup命令  安装驱动以及其他软件包  Debian 或 Ubuntu 在命令行下配置无线网络">
+<meta property="og:description" content="命令行配置无线网络通用方法（一劳永逸） 搜索附近无线网络，获取想要连接网络的SSID  sudo iwlist scan  配置无线网络文件  sudo vim /etc/network/interfaces 配置文件内容为： 123456auto wlan0iface wlan0 inet dhcppre-up ip link set wlan0 uppre-up iwconfig wlan0">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-03-07T15:42:58.604Z">
+<meta property="og:updated_time" content="2019-03-07T15:45:23.002Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="kali linux">
-<meta name="twitter:description" content="命令行配置无线网络通用方法（一劳永逸） 搜索附近无线网络，获取想要连接网络的SSID  sudo iwlist scan  配置无线网络文件  sudo vim /etc/network/interfaces 配置文件内容为： 1//在此输入代码  启用无线网络  sudo ifup wlan0 PS:ifup命令  安装驱动以及其他软件包  Debian 或 Ubuntu 在命令行下配置无线网络">
+<meta name="twitter:description" content="命令行配置无线网络通用方法（一劳永逸） 搜索附近无线网络，获取想要连接网络的SSID  sudo iwlist scan  配置无线网络文件  sudo vim /etc/network/interfaces 配置文件内容为： 123456auto wlan0iface wlan0 inet dhcppre-up ip link set wlan0 uppre-up iwconfig wlan0">
 
 
 
@@ -445,7 +445,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-03-07 23:42:58" itemprop="dateModified" datetime="2019-03-07T23:42:58+08:00">2019-03-07</time>
+                <time title="Modified: 2019-03-07 23:45:23" itemprop="dateModified" datetime="2019-03-07T23:45:23+08:00">2019-03-07</time>
               
             
           </span>
@@ -511,7 +511,7 @@
 </ol>
 <p><code>sudo vim /etc/network/interfaces</code></p>
 <p>配置文件内容为：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">//在此输入代码</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">auto wlan0</span><br><span class="line">iface wlan0 inet dhcp</span><br><span class="line">pre-up ip link set wlan0 up</span><br><span class="line">pre-up iwconfig wlan0 essid ssid</span><br><span class="line">wpa-ssid wenqixiang</span><br><span class="line">wpa-psk bootingman123</span><br></pre></td></tr></table></figure>
 <ol start="3">
 <li>启用无线网络</li>
 </ol>
