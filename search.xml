@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>安装Deepin的后续问题</title>
+      <link href="/2019/03/08/%E5%AE%89%E8%A3%85Deepin%E7%9A%84%E5%90%8E%E7%BB%AD%E9%97%AE%E9%A2%98/"/>
+      <url>/2019/03/08/%E5%AE%89%E8%A3%85Deepin%E7%9A%84%E5%90%8E%E7%BB%AD%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h4 id="安装Java环境："><a href="#安装Java环境：" class="headerlink" title="安装Java环境："></a>安装Java环境：</h4><ol><li>deepin源里有我就直接安装了，并没有其他大佬那样下包在进行配置，方法比较简单。</li><li><code>apt install oracle-java8</code>直接安装</li><li>运行jar文件时会提醒：<code>“Exception in thread &quot;main&quot; java.lang.NoClassDefFoundError: javafx/application/Application”</code></li><li>解决：<br>安装OpenJFX：<code>apt-get install openjfx</code></li></ol><h4 id="安装tg："><a href="#安装tg：" class="headerlink" title="安装tg："></a>安装tg：</h4><ol><li><a href="https://github.com/telegramdesktop/tdesktop/releases" title="title=;target=_blank" target="_blank" rel="noopener">下载地址</a></li><li>解压，修改为可作为可执行文件运行，双击运行</li><li>登陆的时候不要忘记设置proxy，解压出来的文件千万不要删除哦</li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>deepin下codeblocks的配置</title>
       <link href="/2019/03/08/deepin%E4%B8%8Bcodeblocks%E7%9A%84%E9%85%8D%E7%BD%AE/"/>
       <url>/2019/03/08/deepin%E4%B8%8Bcodeblocks%E7%9A%84%E9%85%8D%E7%BD%AE/</url>
