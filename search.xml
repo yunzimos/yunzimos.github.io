@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>deepin下codeblocks的配置</title>
+      <link href="/2019/03/08/deepin%E4%B8%8Bcodeblocks%E7%9A%84%E9%85%8D%E7%BD%AE/"/>
+      <url>/2019/03/08/deepin%E4%B8%8Bcodeblocks%E7%9A%84%E9%85%8D%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-背景主题问题"><a href="#1-背景主题问题" class="headerlink" title="1.背景主题问题"></a>1.背景主题问题</h2><p>版本：deepin15.7</p><p>地址：/home/用户名/.config/codeblocks/    <a href="https://www.cnblogs.com/platero/p/3518850.html" title="title=;target=_blank" target="_blank" rel="noopener">代码及方法</a></p><h2 id="2-中文问题"><a href="#2-中文问题" class="headerlink" title="2.中文问题"></a>2.中文问题</h2><p><a href="https://blog.csdn.net/Fishheadsam/article/details/73699496" title="title=;target=_blank" target="_blank" rel="noopener">方法</a></p><h2 id="3-缩进问题"><a href="#3-缩进问题" class="headerlink" title="3.缩进问题"></a>3.缩进问题</h2><p>安装插件：sudo apt-get install codeblocks-contrib 重启生效</p><p><a href="https://blog.csdn.net/ly890700/article/details/53086079" title="title=;target=_blank" target="_blank" rel="noopener">其他</a></p><h2 id="4-编译中的问题"><a href="#4-编译中的问题" class="headerlink" title="4.编译中的问题"></a>4.编译中的问题</h2><p>编译时出现/bin/sh: 1: g++: not found，并且总是提示没有build</p><p>解决：缺少编译器：sudo apt-get install g++</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Vim</title>
       <link href="/2019/03/08/Vim/"/>
       <url>/2019/03/08/Vim/</url>
