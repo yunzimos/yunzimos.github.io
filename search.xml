@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>WIN10换字体</title>
+      <link href="/2019/03/10/WIN10%E6%8D%A2%E5%AD%97%E4%BD%93/"/>
+      <url>/2019/03/10/WIN10%E6%8D%A2%E5%AD%97%E4%BD%93/</url>
+      
+        <content type="html"><![CDATA[<p>1.把win10系统字体换成自己喜欢的字体从网站上下载自己喜欢的字体，字体文件一般是ttf文件。解压出字体文件（后缀ttf）之后，拖动到“ C:\WINDOWS\Fonts”文件夹下一般是自动安装，如果不是自动安装就双击安装。</p><p>2.打开注册表（win+R键打开运行输入框，输入regedit），定位到（依次点开）“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Fonts  ”找到这两个值，右键单击，修改，把数值数据改成“自己字体名称.ttf”<br><img src="1.png" alt=""><br><img src="2.png" alt=""><br>3.定位以下路径：HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes</p><p>新建字符串值： Microsoft YaHei和Microsoft YaHei UI，将其值改为“自己名称”<br><img src="3.png" alt=""><br>我这里是“同学你好”，接着重启就完成了。</p><p>为了能改回来，记一下默认值：<br>Microsoft YaHei &amp; Microsoft YaHei UI (TrueType)后面的msyh.ttc</p><p>Microsoft YaHei Bold &amp; Microsoft YaHei UI Bold(TrueType)后面的msyhbd.ttc</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>ubuntu18.0安装后的配置</title>
       <link href="/2019/03/10/ubuntu18-0%E5%AE%89%E8%A3%85%E5%90%8E%E7%9A%84%E9%85%8D%E7%BD%AE/"/>
       <url>/2019/03/10/ubuntu18-0%E5%AE%89%E8%A3%85%E5%90%8E%E7%9A%84%E9%85%8D%E7%BD%AE/</url>
