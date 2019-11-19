@@ -1,7 +1,3 @@
 # README
 
-#### lalala
-
-sdfisdfisjdfl
-
-sdfsdfsdfsdf
+由HEXO生成的博客文件
